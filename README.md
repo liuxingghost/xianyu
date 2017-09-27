@@ -1,6 +1,6 @@
 # 闲鱼搜索
-### 一个解锁闲鱼搜索框的chrome插件！
-![](https://github.com/oct16/xianyu_search/blob/master/searchBox.png)
+### 一个解锁闲鱼搜索框的Chrome插件！
+![searchBox.png](https://github.com/oct16/xianyu_search/blob/master/searchBox.png)
 
 ---------------------
 
