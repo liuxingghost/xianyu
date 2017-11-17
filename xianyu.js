@@ -8,18 +8,8 @@
     '<button class="btn-search" type="submit"><i class="iconfont">&#xe602;</i>' +
     '<span class="search-img"></span></button></form>'
   document.getElementById("J_IdleHeader").appendChild(a)
-  function getQueryString(name) {
-    var reg = new RegExp('(^|&)' + name + '=([^&]*)(&|$)', 'i')
-    var r = window.location.search.substr(1).match(reg)
-    if (r != null) {
-      return unescape(r[2])
-    }
-    return null
-  }
-  var key = ''
-  var query = getQueryString('q')
-  if (query) {
-    var searchInput = document.getElementById("J_HeaderSearchQuery")
-    searchInput.value = query.replace(/%2B/g, '+').replace(/\+/g, ' ')
-  }
+
+  var keyWords = document.querySelector(".search-keywords")
+  var searchInput = document.getElementById("J_HeaderSearchQuery")
+  searchInput.value = keyWords.innerHTML
 })();
