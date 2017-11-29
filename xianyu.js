@@ -9,7 +9,7 @@
     '<span class="search-img"></span></button></form>'
   document.getElementById("J_IdleHeader").appendChild(a)
 
-  var keyWords = document.querySelector(".search-keywords")
+  var keyWords = document.querySelector("#J_SearchFilterInput").value
   var searchInput = document.getElementById("J_HeaderSearchQuery")
-  searchInput.value = keyWords.innerHTML
+  searchInput.value = keyWords
 })();
